@@ -1,0 +1,614 @@
+{
+  "titulo": "A Bancada da Divisão",
+  "sub": "Matemática · 4º ano · Conta armada com material dourado",
+  "ano": "4º ano",
+  "tipo": "jogo",
+  "prefixo": "gi",
+  "mascote": "tato",
+  "mascoteNome": "Tato",
+  "voz": "masculina",
+  "crachas": 6,
+  "fundo": "gi_fundo.png",
+  "fundoSuave": true,
+  "arte": {
+    "cenario": "a bright school sports court in a small Brazilian town, warm late-morning light, colorful team flags strung overhead, cones and hoops and jump ropes stacked at the side, wooden bleachers, green hills of the Itajai valley behind the fence, cheerful storybook illustration, soft colors, no people, no text",
+    "simbolo": "a whistle crossed with a jump rope, and a small ball below"
+  },
+  "convite": "<b>Quem vai comandar a oficina</b> hoje?",
+  "abertura": "Bem-vindo à oficina! Aqui a gente não decora conta: a gente REPARTE com as mãos. Todo número vira material dourado — placas de cem, barras de dez e cubinhos de um. Você vai arrastar um bloco para cada grupo, um de cada vez, até não dar mais. O que sobrar, a gente troca por dez da casa de baixo. Eu sou o Tato, e a bancada é sua.",
+  "fim": "Você repartiu trinta e duas contas com as próprias mãos. E olha o que aprendeu sem decorar: aquele 'abaixa' da conta armada é a TROCA — uma dezena virando dez unidades. Quem entende isso não erra mais a conta de dividir, porque não está seguindo regra: está repartindo. Amanhã tem material novo na bancada. Que conta você quer tentar primeiro?",
+  "mesa": "PEDAGOGO (até o 5º ano manda o pedagogo), com roteirista, game designer, especialista em interatividade, web designer, diretor de arte, engenheiro e o PhD de testes que auto-aprende.",
+  "conceitos": {
+    "objetivo1": "Repartir igual com as mãos: um bloco para cada grupo, por vez",
+    "objetivo2": "A troca é o 'abaixa': uma dezena vira dez unidades",
+    "objetivo3": "A sobra que não se reparte é o resto"
+  },
+  "curriculo": {
+    "objetivo1": "(EF04MA07) Resolver problemas de divisão no significado de repartição equitativa, com apoio de material manipulável.",
+    "objetivo2": "(EF04MA07 e EF04MA06) Compreender o algoritmo da divisão a partir do agrupamento e da troca na base dez.",
+    "objetivo3": "(EF04MA07) Interpretar o resto da divisão como o que não pode ser repartido igualmente."
+  },
+  "falasExtra": [
+    "Olha a bancada: o número já está em material dourado, esperando você repartir.",
+    "Sobrou? Então troca: cada peça vira dez da casa de baixo. É esse o segredo da conta armada.",
+    "Repare que a conta ao lado vai se escrevendo sozinha, no mesmo passo que as suas mãos."
+  ],
+  "fases": [
+    {
+      "id": "f01",
+      "mec": "divisao-dourado",
+      "selo": "SEM TROCA — REPARTIR IGUAL",
+      "conceito": "objetivo1",
+      "enunciado": "Reparta o material entre os grupos, um bloco de cada vez.",
+      "dica": "Cada rodada dá <b>um bloco para cada grupo</b>. Quando não der para todos, aquilo é a sobra.",
+      "dados": [
+        {
+          "n": 24,
+          "d": 2
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "SEM TROCA — REPARTIR IGUAL",
+        "FECHO": "Você repartiu <b>24</b> entre <b>2</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f02",
+      "mec": "divisao-dourado",
+      "selo": "SEM TROCA — REPARTIR IGUAL",
+      "conceito": "objetivo1",
+      "enunciado": "Reparta o material entre os grupos, um bloco de cada vez.",
+      "dica": "Cada rodada dá <b>um bloco para cada grupo</b>. Quando não der para todos, aquilo é a sobra.",
+      "dados": [
+        {
+          "n": 39,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "SEM TROCA — REPARTIR IGUAL",
+        "FECHO": "Você repartiu <b>39</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f03",
+      "mec": "divisao-dourado",
+      "selo": "SEM TROCA — REPARTIR IGUAL",
+      "conceito": "objetivo1",
+      "enunciado": "Reparta o material entre os grupos, um bloco de cada vez.",
+      "dica": "Cada rodada dá <b>um bloco para cada grupo</b>. Quando não der para todos, aquilo é a sobra.",
+      "dados": [
+        {
+          "n": 48,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "SEM TROCA — REPARTIR IGUAL",
+        "FECHO": "Você repartiu <b>48</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f04",
+      "mec": "divisao-dourado",
+      "selo": "SEM TROCA — REPARTIR IGUAL",
+      "conceito": "objetivo1",
+      "enunciado": "Reparta o material entre os grupos, um bloco de cada vez.",
+      "dica": "Cada rodada dá <b>um bloco para cada grupo</b>. Quando não der para todos, aquilo é a sobra.",
+      "dados": [
+        {
+          "n": 55,
+          "d": 5
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "SEM TROCA — REPARTIR IGUAL",
+        "FECHO": "Você repartiu <b>55</b> entre <b>5</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f05",
+      "mec": "divisao-dourado",
+      "selo": "SEM TROCA — REPARTIR IGUAL",
+      "conceito": "objetivo1",
+      "enunciado": "Reparta o material entre os grupos, um bloco de cada vez.",
+      "dica": "Cada rodada dá <b>um bloco para cada grupo</b>. Quando não der para todos, aquilo é a sobra.",
+      "dados": [
+        {
+          "n": 66,
+          "d": 6
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "SEM TROCA — REPARTIR IGUAL",
+        "FECHO": "Você repartiu <b>66</b> entre <b>6</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f06",
+      "mec": "divisao-dourado",
+      "selo": "SEM TROCA — REPARTIR IGUAL",
+      "conceito": "objetivo1",
+      "enunciado": "Reparta o material entre os grupos, um bloco de cada vez.",
+      "dica": "Cada rodada dá <b>um bloco para cada grupo</b>. Quando não der para todos, aquilo é a sobra.",
+      "dados": [
+        {
+          "n": 84,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "SEM TROCA — REPARTIR IGUAL",
+        "FECHO": "Você repartiu <b>84</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f07",
+      "mec": "divisao-dourado",
+      "selo": "A TROCA — 1 DEZENA VIRA 10",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar dezena: arraste a sobra e troque por 10 unidades.",
+      "dica": "Sobrou dezena? Ela não se reparte inteira: <b>troca por 10 unidades</b> e continua.",
+      "dados": [
+        {
+          "n": 36,
+          "d": 2
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "A TROCA — 1 DEZENA VIRA 10",
+        "FECHO": "Você repartiu <b>36</b> entre <b>2</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f08",
+      "mec": "divisao-dourado",
+      "selo": "A TROCA — 1 DEZENA VIRA 10",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar dezena: arraste a sobra e troque por 10 unidades.",
+      "dica": "Sobrou dezena? Ela não se reparte inteira: <b>troca por 10 unidades</b> e continua.",
+      "dados": [
+        {
+          "n": 45,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "A TROCA — 1 DEZENA VIRA 10",
+        "FECHO": "Você repartiu <b>45</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f09",
+      "mec": "divisao-dourado",
+      "selo": "A TROCA — 1 DEZENA VIRA 10",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar dezena: arraste a sobra e troque por 10 unidades.",
+      "dica": "Sobrou dezena? Ela não se reparte inteira: <b>troca por 10 unidades</b> e continua.",
+      "dados": [
+        {
+          "n": 52,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "A TROCA — 1 DEZENA VIRA 10",
+        "FECHO": "Você repartiu <b>52</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f10",
+      "mec": "divisao-dourado",
+      "selo": "A TROCA — 1 DEZENA VIRA 10",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar dezena: arraste a sobra e troque por 10 unidades.",
+      "dica": "Sobrou dezena? Ela não se reparte inteira: <b>troca por 10 unidades</b> e continua.",
+      "dados": [
+        {
+          "n": 72,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "A TROCA — 1 DEZENA VIRA 10",
+        "FECHO": "Você repartiu <b>72</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f11",
+      "mec": "divisao-dourado",
+      "selo": "A TROCA — 1 DEZENA VIRA 10",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar dezena: arraste a sobra e troque por 10 unidades.",
+      "dica": "Sobrou dezena? Ela não se reparte inteira: <b>troca por 10 unidades</b> e continua.",
+      "dados": [
+        {
+          "n": 84,
+          "d": 6
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "A TROCA — 1 DEZENA VIRA 10",
+        "FECHO": "Você repartiu <b>84</b> entre <b>6</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f12",
+      "mec": "divisao-dourado",
+      "selo": "A TROCA — 1 DEZENA VIRA 10",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar dezena: arraste a sobra e troque por 10 unidades.",
+      "dica": "Sobrou dezena? Ela não se reparte inteira: <b>troca por 10 unidades</b> e continua.",
+      "dados": [
+        {
+          "n": 91,
+          "d": 7
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "A TROCA — 1 DEZENA VIRA 10",
+        "FECHO": "Você repartiu <b>91</b> entre <b>7</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f13aquec",
+      "mec": "divisao-dourado",
+      "selo": "AQUECIMENTO — VOLTA O REPARTIR",
+      "conceito": "objetivo1",
+      "enunciado": "Aquecimento: sem troca e sem sobra. Reparta um bloco de cada vez.",
+      "dica": "É o mesmo gesto do começo: <b>um bloco para cada grupo</b>, até acabar a casa.",
+      "dados": [
+        {
+          "n": 68,
+          "d": 2
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "AQUECIMENTO — VOLTA O REPARTIR",
+        "FECHO": "Você repartiu <b>68</b> entre <b>2</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f13",
+      "mec": "divisao-dourado",
+      "selo": "QUANDO SOBRA DE VERDADE",
+      "conceito": "objetivo3",
+      "enunciado": "Aqui vai sobrar no fim: escreva o resultado e a sobra.",
+      "dica": "O resto é o que fica no banco sem dar para repartir entre todos os grupos.",
+      "dados": [
+        {
+          "n": 25,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "QUANDO SOBRA DE VERDADE",
+        "FECHO": "Você repartiu <b>25</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f14",
+      "mec": "divisao-dourado",
+      "selo": "QUANDO SOBRA DE VERDADE",
+      "conceito": "objetivo3",
+      "enunciado": "Aqui vai sobrar no fim: escreva o resultado e a sobra.",
+      "dica": "O resto é o que fica no banco sem dar para repartir entre todos os grupos.",
+      "dados": [
+        {
+          "n": 38,
+          "d": 5
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "QUANDO SOBRA DE VERDADE",
+        "FECHO": "Você repartiu <b>38</b> entre <b>5</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f15",
+      "mec": "divisao-dourado",
+      "selo": "QUANDO SOBRA DE VERDADE",
+      "conceito": "objetivo3",
+      "enunciado": "Aqui vai sobrar no fim: escreva o resultado e a sobra.",
+      "dica": "O resto é o que fica no banco sem dar para repartir entre todos os grupos.",
+      "dados": [
+        {
+          "n": 50,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "QUANDO SOBRA DE VERDADE",
+        "FECHO": "Você repartiu <b>50</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f17",
+      "mec": "divisao-dourado",
+      "selo": "QUANDO SOBRA DE VERDADE",
+      "conceito": "objetivo3",
+      "enunciado": "Aqui vai sobrar no fim: escreva o resultado e a sobra.",
+      "dica": "O resto é o que fica no banco sem dar para repartir entre todos os grupos.",
+      "dados": [
+        {
+          "n": 34,
+          "d": 5
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "QUANDO SOBRA DE VERDADE",
+        "FECHO": "Você repartiu <b>34</b> entre <b>5</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f18",
+      "mec": "divisao-dourado",
+      "selo": "QUANDO SOBRA DE VERDADE",
+      "conceito": "objetivo3",
+      "enunciado": "Aqui vai sobrar no fim: escreva o resultado e a sobra.",
+      "dica": "O resto é o que fica no banco sem dar para repartir entre todos os grupos.",
+      "dados": [
+        {
+          "n": 43,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "QUANDO SOBRA DE VERDADE",
+        "FECHO": "Você repartiu <b>43</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f19aquec",
+      "mec": "divisao-dourado",
+      "selo": "AQUECIMENTO — VOLTA O REPARTIR",
+      "conceito": "objetivo1",
+      "enunciado": "Aquecimento: esta divide certinho. Reparta e leia num grupo só.",
+      "dica": "Aqui não sobra nada. Reparte tudo e o resultado está dentro de <b>um</b> grupo.",
+      "dados": [
+        {
+          "n": 96,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "AQUECIMENTO — VOLTA O REPARTIR",
+        "FECHO": "Você repartiu <b>96</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f19",
+      "mec": "divisao-dourado",
+      "selo": "ENTRA A CENTENA",
+      "conceito": "objetivo2",
+      "enunciado": "Três algarismos: comece pelas CENTENAS e desça.",
+      "dica": "Reparta primeiro as placas (centenas). O que sobrar delas vira 10 barras cada.",
+      "dados": [
+        {
+          "n": 128,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "ENTRA A CENTENA",
+        "FECHO": "Você repartiu <b>128</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f21",
+      "mec": "divisao-dourado",
+      "selo": "ENTRA A CENTENA",
+      "conceito": "objetivo2",
+      "enunciado": "Três algarismos: comece pelas CENTENAS e desça.",
+      "dica": "Reparta primeiro as placas (centenas). O que sobrar delas vira 10 barras cada.",
+      "dados": [
+        {
+          "n": 168,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "ENTRA A CENTENA",
+        "FECHO": "Você repartiu <b>168</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f22",
+      "mec": "divisao-dourado",
+      "selo": "ENTRA A CENTENA",
+      "conceito": "objetivo2",
+      "enunciado": "Três algarismos: comece pelas CENTENAS e desça.",
+      "dica": "Reparta primeiro as placas (centenas). O que sobrar delas vira 10 barras cada.",
+      "dados": [
+        {
+          "n": 210,
+          "d": 5
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "ENTRA A CENTENA",
+        "FECHO": "Você repartiu <b>210</b> entre <b>5</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f23",
+      "mec": "divisao-dourado",
+      "selo": "ENTRA A CENTENA",
+      "conceito": "objetivo2",
+      "enunciado": "Três algarismos: comece pelas CENTENAS e desça.",
+      "dica": "Reparta primeiro as placas (centenas). O que sobrar delas vira 10 barras cada.",
+      "dados": [
+        {
+          "n": 208,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "ENTRA A CENTENA",
+        "FECHO": "Você repartiu <b>208</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f24",
+      "mec": "divisao-dourado",
+      "selo": "ENTRA A CENTENA",
+      "conceito": "objetivo2",
+      "enunciado": "Três algarismos: comece pelas CENTENAS e desça.",
+      "dica": "Reparta primeiro as placas (centenas). O que sobrar delas vira 10 barras cada.",
+      "dados": [
+        {
+          "n": 372,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "ENTRA A CENTENA",
+        "FECHO": "Você repartiu <b>372</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f25aquec",
+      "mec": "divisao-dourado",
+      "selo": "AQUECIMENTO — VOLTA O REPARTIR",
+      "conceito": "objetivo1",
+      "enunciado": "Aquecimento com três algarismos: começa nas centenas e não sobra nada.",
+      "dica": "Placas primeiro, depois barras, depois cubinhos. Cada casa reparte certinho.",
+      "dados": [
+        {
+          "n": 396,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "AQUECIMENTO — VOLTA O REPARTIR",
+        "FECHO": "Você repartiu <b>396</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f25",
+      "mec": "divisao-dourado",
+      "selo": "TROCA DUPLA",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar duas vezes. Troque cada sobra pela casa de baixo.",
+      "dica": "Toda vez que sobrar, arraste a sobra para a casa de baixo. É sempre a mesma regra.",
+      "dados": [
+        {
+          "n": 375,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "TROCA DUPLA",
+        "FECHO": "Você repartiu <b>375</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f26",
+      "mec": "divisao-dourado",
+      "selo": "TROCA DUPLA",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar duas vezes. Troque cada sobra pela casa de baixo.",
+      "dica": "Toda vez que sobrar, arraste a sobra para a casa de baixo. É sempre a mesma regra.",
+      "dados": [
+        {
+          "n": 528,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "TROCA DUPLA",
+        "FECHO": "Você repartiu <b>528</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f27",
+      "mec": "divisao-dourado",
+      "selo": "TROCA DUPLA",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar duas vezes. Troque cada sobra pela casa de baixo.",
+      "dica": "Toda vez que sobrar, arraste a sobra para a casa de baixo. É sempre a mesma regra.",
+      "dados": [
+        {
+          "n": 618,
+          "d": 6
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "TROCA DUPLA",
+        "FECHO": "Você repartiu <b>618</b> entre <b>6</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f29",
+      "mec": "divisao-dourado",
+      "selo": "TROCA DUPLA",
+      "conceito": "objetivo2",
+      "enunciado": "Vai sobrar duas vezes. Troque cada sobra pela casa de baixo.",
+      "dica": "Toda vez que sobrar, arraste a sobra para a casa de baixo. É sempre a mesma regra.",
+      "dados": [
+        {
+          "n": 505,
+          "d": 5
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "TROCA DUPLA",
+        "FECHO": "Você repartiu <b>505</b> entre <b>5</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f30",
+      "mec": "divisao-dourado",
+      "selo": "O DESAFIO FINAL",
+      "conceito": "objetivo3",
+      "enunciado": "As mais fortes: três algarismos e ainda sobra no fim.",
+      "dica": "Faça igual às outras. No fim, leia num grupo e conte o que ficou no banco.",
+      "dados": [
+        {
+          "n": 134,
+          "d": 4
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "O DESAFIO FINAL",
+        "FECHO": "Você repartiu <b>134</b> entre <b>4</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f31",
+      "mec": "divisao-dourado",
+      "selo": "O DESAFIO FINAL",
+      "conceito": "objetivo3",
+      "enunciado": "As mais fortes: três algarismos e ainda sobra no fim.",
+      "dica": "Faça igual às outras. No fim, leia num grupo e conte o que ficou no banco.",
+      "dados": [
+        {
+          "n": 229,
+          "d": 3
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "O DESAFIO FINAL",
+        "FECHO": "Você repartiu <b>229</b> entre <b>3</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    },
+    {
+      "id": "f32",
+      "mec": "divisao-dourado",
+      "selo": "O DESAFIO FINAL",
+      "conceito": "objetivo3",
+      "enunciado": "As mais fortes: três algarismos e ainda sobra no fim.",
+      "dica": "Faça igual às outras. No fim, leia num grupo e conte o que ficou no banco.",
+      "dados": [
+        {
+          "n": 218,
+          "d": 5
+        }
+      ],
+      "dadosExtra": {
+        "TITULO": "O DESAFIO FINAL",
+        "FECHO": "Você repartiu <b>218</b> entre <b>5</b> grupos com as próprias mãos — e leu o resultado nos grupos."
+      }
+    }
+  ]
+}
